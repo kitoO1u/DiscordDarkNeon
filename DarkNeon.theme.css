@@ -37,10 +37,10 @@
   --background-size: cover; /* Scales the background image */
   --background-repeat: no-repeat;
   --background-attachment: fixed;
-  --background-brightness: 51%;
+  --background-brightness: 30%;
   --background-contrast: 100%;
   --background-saturation: 300%;
-  --background-grayscale: 5%;
+  --background-grayscale: 13%;
   --background-invert: 0%;
   --main-font: Itim;
   --code-font: Exo 2;
