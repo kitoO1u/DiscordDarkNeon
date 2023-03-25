@@ -16,6 +16,8 @@
 
 @import url('https://commandcrafterhd.github.io/DiscordDarkNeon/css/hideUsers.css');
 /* This import adds the collapsible user-list. Remove it/comment it out to disable that feature */
+@import url('https://fonts.googleapis.com/css2?family=Itim:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300;400;500;700&display=swap');
 
 /* CUSTOMIZE COLORS IN HERE! */
 :root {
@@ -30,9 +32,17 @@
 
   --transition-time: .3s; /* How fast animations added by the theme happen. Default is 0.3 seconds */
 
-  --background-image: unset; /* To add an image, replace unset with url(https://www.YOUR-URL-HERE.com) */
+  --background-image: url(https://wallpapercave.com/wp/wp8362126.jpg); /* To add an image, replace unset with url(https://www.YOUR-URL-HERE.com) */
   --background-position: center; /* Positions the background image */
   --background-size: cover; /* Scales the background image */
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 51%;
+  --background-contrast: 100%;
+  --background-saturation: 300%;
+  --background-grayscale: 5%;
+  --background-invert: 0%;
+  --main-font: Itim;
+  --code-font: Exo 2;
   --background-blur: 5px; /* Blurs the image which helps with readability of text infront of it */
-  --background-brightness: 100%; /* Changes the background images brightness */
 }
